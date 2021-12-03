@@ -40,7 +40,7 @@ function updateFilters() {
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
     if (elementValue) {
-      filters[filterId]=elementValue;
+      filters[filteredId]=elementValue;
     }
     else {
       delete filters[filteredId];
@@ -65,7 +65,7 @@ function updateFilters() {
   
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
-    }  
+  }  
   // 2. Attach an event to listen for changes to each filter
   d3.selectAll("input").on("change", updateFilters);
   

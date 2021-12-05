@@ -8,7 +8,7 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ![](https://github.com/labinskin/UFOs/blob/main/basic.png)
 
-As you can see on the left side of the scree, there are five possible search criteria we created: date, city, state, country, and shape.
+As you can see on the left side of the screen, there are five possible search criteria we created: date, city, state, country, and shape.
 
 ![](https://github.com/labinskin/UFOs/blob/main/city_search.png)
 

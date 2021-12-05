@@ -6,19 +6,19 @@ Dana’s webpage and dynamic table are working as intended, but she’d like to 
 
 ##### Results
 
-![]()
+![](https://github.com/labinskin/UFOs/blob/main/basic.png)
 
 As you can see on the left side of the scree, there are five possible search criteria we created: date, city, state, country, and shape.
 
-![]()
+![](https://github.com/labinskin/UFOs/blob/main/city_search.png)
 
 When we enter a city, in this case el cajon, and hit enter, the table will return all the results for el cajon.
 
-![]()
+![](https://github.com/labinskin/UFOs/blob/main/shape_search.png)
 
 When we delete el cajon and enter in a new criteria, in this case shape, the table will return all the results that match our criteria. As you can see in this particular case circle.
 
-![]()
+![](https://github.com/labinskin/UFOs/blob/main/multiple_search.png)
 
 We can also search multiple criteria at the same time. This search shows us all the results for circle UFOs in mason.
 
@@ -28,7 +28,7 @@ The website overall allows us to enter different criteria, either a single searc
 
 There are a couple of drawbacks that I would like to mention before recommending some improvements. First, the user cannot enter multiple ids at the same time. For instance, I could not return all the results for UFO sightings in both California and New Mexico in the same search. The second drawback is the user needs to know the correct lower case spelling of the id they are searching. For instance, in our example above the user would need to input el cajon, not El Cajon (see image below), otherwise no results would be returned.
 
-![]()
+![](https://github.com/labinskin/UFOs/blob/main/capital_letters.png)
 
 ###### Recommendations
 
